@@ -1,0 +1,77 @@
+                            //  OBJECT
+    let myObj = {
+        name : "bob",
+        year : 1990,
+        greet : function(){
+            return `hello ${this.name} born on ${this.year}`
+        }
+    }
+//  To print the object
+    // console.log(myObj)  
+
+// To add paraments / properties
+    // myObj.date = "12/4/2003"
+    // console.log(myObj)  
+
+// To copy the elements
+    // let obj2 = Object.assign(myObj)
+    // console.log(obj2)  
+// If nested
+    // let obj1 = {
+    //     name :"bob",
+    //     date : {
+    //         year : 1990
+    //     }
+    // }
+    // let obj2 = Object.assign({},obj1);
+    // obj2.date.year = 2000
+    // console.log(obj2)  
+
+// To convert in Json
+    // console.log(JSON.stringify(myObj))
+
+// To get entries (To convert data in array)
+    // console.log(Object.entries(myObj));
+
+// To get keys
+    // console.log(Object.keys(myObj))
+    
+// To get values
+    // console.log(Object.values(myObj))
+
+// To make Object constant
+    // myObj = Object.freeze(myObj);
+    // myObj.name = "Aryan"
+    // myObj.year = 2004
+    // console.log(myObj)
+    
+// To identify perticular key's value
+    // console.log(myObj["name"],"By array method");
+    // console.log(myObj.name,"By dot method")
+
+// To delete property
+    // delete myObj.year
+    // console.log(myObj)
+
+// To print the function
+    // console.log(myObj.greet())
+
+                            // ARRAY
+// Functions of Array
+let arr = [1,2,3,4,5,6,7,8,9,0];
+
+// 1. Length
+    console.log("Total lenth is :" , arr.length)    
+
+// 2. Reverse
+    console.log(arr.reverse())
+
+// 3. Sort
+    console.log(arr.sort())
+    
+// 4. Fill
+    // console.log(arr2.fill(2))
+    // console.log(arr2.fill(9,0,3))
+
+// 5. join 
+    console.log(arr.join(" "))
